@@ -1,8 +1,8 @@
 import pandas as pd
 from flask import Flask, request, jsonify,render_template
 import joblib
-import psycopg2 
-import json
+# import psycopg2 
+# import json
 
 app = Flask(__name__)
 model = joblib.load('iris_model.pkl')
