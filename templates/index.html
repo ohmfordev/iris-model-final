@@ -80,6 +80,7 @@
             const sepalWidth = document.getElementById('sepal_width').value;
             const petalLength = document.getElementById('petal_length').value;
             const petalWidth = document.getElementById('petal_width').value;
+
             const response = await fetch('/predict', {
                 method: 'POST',
                 headers: {
