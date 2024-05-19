@@ -12,7 +12,7 @@ model = joblib.load('iris_model.pkl')
 # GET Data
 @app.route('/', methods=['GET'])
 def index():
-    return render_template('/index.html')
+    return render_template('index.html')
 
 # Body POST
 @app.route('/predict', methods=['POST'])
