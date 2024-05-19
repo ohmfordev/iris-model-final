@@ -28,4 +28,4 @@ def predict():
     except Exception as e:
         return jsonify({'error': 'Prediction error: ' + str(e)}), 404
 if __name__ == '__main__':
-    app.run(debug=True , port = 8000)
+    app.run(debug=True , port = 9000)
